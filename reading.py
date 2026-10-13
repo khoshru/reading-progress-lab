@@ -1,3 +1,4 @@
 def reading_status(title, current, total):
-    return f'{title}: {current}/{total} pages read'
+    prec = current // total *100
+    return f'{title}: {current}/{total} pages read ({prec}% )'
 reading_status("Dune", 120, 412)
