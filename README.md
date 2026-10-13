@@ -18,5 +18,3 @@ python test_reading.py
 If the test passes, it prints:
 
 worked
-
-added prec
